@@ -1,0 +1,77 @@
+h2 {
+	color: white;
+	border: 2px solid;
+	border-color: white;
+	background-color: #FF9D5B;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-top: 0px;
+	font-family: 'Quicksand', sans-serif;
+	font-weight: bold;
+	overflow: hidden;
+	text-overflow: clip;
+}
+
+ul {
+	border: 2px solid;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-left: 23px;
+	background-color: #FFAC75;
+	border-color: white;
+	margin-right: 10px;
+	margin-left: 10px;
+	line-height: 30px;
+	font-size: 15px;
+	color: white;
+	font-weight: bold; 
+	overflow: hidden;
+	text-overflow: clip;
+	transition: transform 0.3s;
+}
+
+/*tambahan hover untuk mouse*/
+
+ul:hover{
+	transform: scale(1.05);
+}
+
+li:hover{
+	color: red;
+	transition: 0.5s;
+}
+
+a:hover{
+	color: red;
+	transition: 0.5s;
+}
+
+body {
+	background-color: #ced4da;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 17.8px;
+	border-color: white;
+}
+a {
+	color: white;
+}
+
+/*tambahan untuk tulisan "home"*/
+small{
+	color: #4e4e4e;
+	font-family: 'Quicksand', sans-serif;
+	overflow: hidden;
+	text-overflow: clip;
+	font-weight: bold;
+	border: 1px;
+	transition: transform 0.3s;
+}
+
+small:hover{
+	color: red;
+	transition: 0.5s;
+	transform: scale(1.7);
+}

@@ -1,0 +1,28 @@
+/*Untuk semua bagian frame-frame isi di sisi kanan*/
+body {
+	background: url('latarbelakang-putih.jpg');
+	margin: 100px;
+	line-height: 30px;
+	padding-top: 0px;
+	margin-top: 50px;
+	padding-right: 1px;
+	letter-spacing: 1px;
+	font-family: 'Amatic SC', cursive;
+}
+
+img{
+	transition: transform 0.3s;
+}
+
+img:hover {
+	transform: scale(1.1); 
+}
+
+.paragraf{
+	text-align: justify;
+}
+
+h3 {
+	font-size: 35px;
+}
+

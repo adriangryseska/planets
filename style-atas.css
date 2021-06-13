@@ -1,0 +1,29 @@
+body {
+	margin-top: 5px;
+	padding-top: 1px;
+	line-height: 14px;
+	padding-left: 25px;
+	padding-right: 50px;
+	background-color: #FF7E28;
+	color: black;
+}
+
+h2 {
+	font-family: 'Quicksand', sans-serif;
+	margin-top: 30px;
+	font-size: 35px;
+	line-height: 2px;
+	font-weight: bolder;
+	color: white;
+}
+
+p {
+	font-family: 'Quicksand', sans-serif;
+	font-size: 15px;
+	line-height: 2px;
+	margin-bottom: 20px;
+	padding-top: 3px;
+	font-weight: bold;
+	color: white;
+	text-shadow: ;
+}
